@@ -621,8 +621,6 @@ namespace ZeroMQ
 				return string.Empty;
 			}
 
-			remaining = Math.Min(charCount, remaining);
-
 			var resultChars = new char[charCount];
 			fixed (char* chars = resultChars)
 			{
